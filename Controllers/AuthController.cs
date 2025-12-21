@@ -19,7 +19,7 @@ public class AuthController : ControllerBase
         try
         {
             var user = await _auth.RegisterAsync(req);
-            return CreatedAtAction(null, new { id = user.Id, email = user.Email });
+            return Ok(new { message = "User registered successfully", id = user.Id, email = user.Email });
         }
         catch (InvalidOperationException ex) when (ex.Message == "email_taken")
         {

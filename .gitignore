@@ -129,3 +129,5 @@
 /.idea/.idea.backend.dir/.idea/aws.xml
 /.idea/.idea.backend.dir/.idea/copilot.data.migration.ask2agent.xml
 /.idea/.idea.backend.dir/.idea/vcs.xml
+/obj/Debug/net9.0/backend.sourcelink.json
+/.idea/.idea.backend.dir/.idea/git_toolbox_prj.xml
